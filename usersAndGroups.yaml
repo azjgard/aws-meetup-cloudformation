@@ -24,3 +24,9 @@ Resources:
       Groups:
         - "Band"
       UserName: "Johnny"
+
+  GroupBand:
+    Type: "AWS::IAM::Group"
+    Properties:
+      GroupName: "Band"
+
