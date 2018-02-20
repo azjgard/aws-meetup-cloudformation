@@ -18,3 +18,9 @@ Resources:
       Groups:
         - "Band"
       UserName: "Mary"
+  UserJohnny:
+    Type: "AWS::IAM::User"
+    Properties:
+      Groups:
+        - "Band"
+      UserName: "Johnny"
