@@ -1,0 +1,20 @@
+
+Resources:
+  UserPeter:
+    Type: "AWS::IAM::User"
+    Properties:
+      Groups:
+        - "Band"
+      UserName: "Peter"
+  UserPaul:
+    Type: "AWS::IAM::User"
+    Properties:
+      Groups:
+        - "Band"
+      UserName: "Paul"
+  UserMary:
+    Type: "AWS::IAM::User"
+    Properties:
+      Groups:
+        - "Band"
+      UserName: "Mary"
